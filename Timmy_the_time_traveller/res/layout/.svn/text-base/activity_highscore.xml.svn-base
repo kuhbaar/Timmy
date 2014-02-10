@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown" >
+
+    <TextView
+        android:id="@+id/textViewXy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/highscore_rank_lvl1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewXy"
+        android:layout_alignBottom="@+id/textViewXy"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="28dp"
+        android:text="@string/highscore_score_lvl1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/nameHeaderView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewXy"
+        android:layout_alignBottom="@+id/textViewXy"
+        android:layout_centerHorizontal="true"
+        android:text="@string/highscore_name_lvl1"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/rankTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="64dp"
+        android:textColor="@android:color/white"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/nameTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/scoreTextView1"
+        android:layout_alignBottom="@+id/scoreTextView1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white" 
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/scoreTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rankTextView1"
+        android:layout_alignBottom="@+id/rankTextView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:textColor="@android:color/white" 
+        android:text=""/>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Timmy The Time Traveler</string>
+    <string name="title">Timmy\nThe\nTime\nTraveler</string>
+    <string name="start">Start</string>
+    <string name="end">Beenden</string>
+    <string name="help">Hilfe</string>
+    <string name="highscore">Highscore</string>
+    <string name="action_settings">action settings</string>
+    <string name="title_activity_highscore">HighscoreActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_highscore_activity_lvl2">HighscoreActivityLvl2</string>
+    <string name="title_activity_highscore_activity_main">HighscoreActivityMain</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="video_skip">Skip</string>
+    <string name="highscore_rank_lvl1">Rank</string>
+    <string name="highscore_name_lvl1">Name</string>
+    <string name="highscore_score_lvl1">Score</string>
+    <string name="highscore_rank_lvl2">Rank</string>
+    <string name="highscore_name_lvl2">Name</string>
+    <string name="highscore_score_lvl2">Score</string>
+    <string name="title_activity_dead">DeadActivity</string>
+    <string name="contentDes_rip">RIP</string>
+    <string name="button_playagain">Nochmal</string>
+    <string name="button_exit">Hauptmenü</string>
+    <string name="title_activity_finish">FinishActivity</string>
+    <string name="contentDes_finish">Thumbs_up</string>
+    <string name="button_nextLevel">Weiter</string>
+    <string name="highscoreInput">Name für den Highscore</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="helpText">Willkommen bei Timmy The Time Traveler!\n\n
+        Timmy wird durch die am Screen eingeblendete Pfeiltasten gesteuert (=Steuerungstasten). Weiters gibt es eine Back In Time Taste, mit der Timmy zurück in der Zeit reisen kann, um zu vorhin unerreichbaren Gegenden zu gelangen. Diese Fähigkeit ist mit Vorsicht zu genießen - man kann es nur ein mal pro Level benutzen!\n\n
+        Oben, von links beginnend, befindet sich die Anzeige der aktuellen Leben, der Punktestand, der gleich der verstrichenen Zeit ist und die Tasten um das Spiel zu pausieren, die Geräusche ein- bzw. auszuschalten und um das Spiel zu verlassen.</string>
+    <string name="button_forward">Weiter</string>
+    <string name="button_backward">Zurück</string>
+    
+    
+</resources>
